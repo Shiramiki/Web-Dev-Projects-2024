@@ -1,0 +1,163 @@
+@font-face {
+    font-family: YoungSerif;
+    src: url(assets/fonts/young-serif/YoungSerif-Regular.ttf);
+
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+/* 
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-Bold.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-Light.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-ExtraLight.ttf);
+
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/Outfit-Medium.ttf);
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(assets/fonts/outfit/static/);
+} */
+
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+main{
+    background-color: hsl(0, 0%, 100%);
+    width:60vw;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    border-radius: 15px;
+}
+
+img {
+    width: calc(60vw - 50px);
+    padding-top: 25px;
+}
+
+main * {
+    margin-left: 25px;
+    margin-right:25px;
+}
+
+li, th, p {
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    font-family: Outfit;
+    padding: 5px 0px;
+    
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+}
+
+h1, h2 {
+    font-family: YoungSerif;
+}
+h2,td {
+    color:hsl(14, 45%, 36%);
+    
+    
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    font-family: Outfit;
+}
+
+#Prep {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+table{
+    /* border-collapse: collapse; */
+    border:none;
+    padding-bottom: 30px;
+    
+}
+th,td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.last {
+    border-bottom: none ;
+}
+
+th, td{
+    padding: 5px;
+    width:50vw;
+}
+
+td {
+    font-weight: 700;
+    font-family: Outfit;
+    
+}
+
+th {
+    font-weight: 400;
+    font-family: Oufit;
+    color: hsl(30, 10%, 34%);
+}
+
+hr {
+    border-top: hsl(30, 18%, 87%);
+}
+
+span {
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+
+}
+/* For Mobile Phones */
+
+@media only screen and (max-width:775px){
+    main{
+        margin: 0;
+        width: 100%;
+        box-sizing: border-box;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    body {
+        padding:0;
+        background-color: white;
+        margin:0;
+    }
+
+    img {
+        width:100%;
+        margin: 0;
+        padding:0;
+    }
+}
